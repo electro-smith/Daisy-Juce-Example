@@ -4,12 +4,27 @@ Proof of Concept of using DaisySP with JUCE
 
 This is meant as a simple example to get started developing JUCE plugins/applications using DaisySP
 
+This project is **still in progress** and is subject to change.
+
+## Plugin Description 
+
+A mono (always-on) FM Oscillator with MIDI input
+
+* CC1 controls the FM index
+* CC2 or CC91 controls the FM Ratio
+* Note On Messages will set the frequency, offset by the MIDI note number set by the slider in the plugin window.
+
 ## Prerequisites
 
 * CMAKE >= v3.15
 
 This project has been tested on:
-* Windows 10 w/ VisualStudio 2019
+
+* [x] Windows 10 w/ VisualStudio 2019
+* [ ] Mac OS X
+* [ ] Linux
+
+Only the standalone application has been tested so far.
 
 ## Setup
 
