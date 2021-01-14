@@ -1,0 +1,6 @@
+[submodule "plugin/DaisySP"]
+	path = plugin/DaisySP
+	url = https://github.com/electro-smith/DaisySP
+[submodule "plugin/JUCE"]
+	path = plugin/JUCE
+	url = https://github.com/juce-framework/JUCE
