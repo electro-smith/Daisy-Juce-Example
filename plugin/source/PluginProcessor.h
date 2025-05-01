@@ -1,7 +1,7 @@
 #pragma once
 
 #include <juce_audio_processors/juce_audio_processors.h>
-#include "../DaisySP/daisysp.h"
+#include "daisysp.h"
 
 //==============================================================================
 class AudioPluginAudioProcessor : public juce::AudioProcessor
